@@ -115,26 +115,29 @@ a{
 /*This is section 3*/
 .quote-container{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    padding: 0px 400px;
     background-color: #e5e7eb;
     min-height: 445px;
 }
 
 .quote-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 32px;
     color: #1f2937;
     font-style: italic;
+    padding: 20px;
 }
 
 .quote-author{
     display: flex;
     justify-content: right;
-    margin-top: 2px;
+    align-items: center;
     font-weight: bold;
     font-size: 30px;
-    padding: 0px 70px;
+    flex-wrap: nowrap;
+    padding: 40px;
 }
 
 /*This is the call to action section*/
